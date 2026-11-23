@@ -12,11 +12,11 @@ class SiteFooter extends HTMLElement {
             <li><a href="/#play">Play the game</a></li>
             <li><a href="/#how-it-works">How it works</a></li>
             <li><a href="/#strategy">Strategy</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-            <li><a href="/privacy.html">Privacy</a></li>
-            <li><a href="/terms.html">Terms</a></li>
-            <li><a href="/disclaimer.html">Disclaimer</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/terms">Terms</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
             <li><a href="/#faq">FAQ</a></li>
           </ul>
         </nav>
