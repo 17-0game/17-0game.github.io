@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>17-0 Game: NFL Roster Draft &amp; Undefeated Season Simulator</title>
+<meta name="description" content="Play the 17-0 Game free online. Draft NFL players from random teams and eras, build your best roster and simulate a 17-game season to go undefeated.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0e1a2b">
+<link rel="canonical" href="https://17-0game.github.io/">
+<link rel="icon" type="image/webp" href="/images/logo.webp">
+<link rel="apple-touch-icon" href="/images/logo.webp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="17-0 Game">
+<meta property="og:title" content="17-0 Game: NFL Roster Draft &amp; Undefeated Season Simulator">
+<meta property="og:description" content="Draft NFL players from random teams and eras, then simulate a 17-game season. Can your roster go 17-0?">
+<meta property="og:url" content="https://17-0game.github.io/">
+<meta property="og:image" content="https://17-0game.github.io/images/og-17-0-game.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="17-0 Game: NFL Roster Draft &amp; Undefeated Season Simulator">
+<meta name="twitter:description" content="Draft NFL players from random teams and eras, then simulate a 17-game season. Can your roster go 17-0?">
+<meta name="twitter:image" content="https://17-0game.github.io/images/og-17-0-game.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@700;800&display=swap">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="preload" as="image" href="/images/hero-field.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "WebSite", "@id": "https://17-0game.github.io/#website", "url": "https://17-0game.github.io/", "name": "17-0 Game", "description": "An NFL roster-building and season simulation game.", "inLanguage": "en"},
+    {"@type": "WebApplication", "@id": "https://17-0game.github.io/#app", "name": "17-0 Game", "url": "https://17-0game.github.io/", "applicationCategory": "GameApplication", "operatingSystem": "Any (web browser)", "browserRequirements": "Requires JavaScript", "genre": ["Sports", "Simulation", "Strategy"], "image": "https://17-0game.github.io/images/og-17-0-game.webp", "description": "Draft players from random NFL teams and eras to build a lineup that can go undefeated across a 17-game regular season.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "isPartOf": {"@id": "https://17-0game.github.io/#website"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "What is the 17-0 Game?", "acceptedAnswer": {"@type": "Answer", "text": "The 17-0 Game is a free NFL roster-building and simulation challenge. You draft players from random teams and eras, then simulate a 17-game regular season to see if your roster can go undefeated."}},
+      {"@type": "Question", "name": "How do I win the 17-0 Game?", "acceptedAnswer": {"@type": "Answer", "text": "Win all 17 simulated games. Draft the highest-rated player at each position, and prioritise the quarterback and the offensive and defensive lines, which carry the most weight in your team rating."}},
+      {"@type": "Question", "name": "How many players do I draft?", "acceptedAnswer": {"@type": "Answer", "text": "You make nine picks, one for each position group: quarterback, running back, wide receiver, tight end, offensive line, defensive line, linebacker, cornerback and safety."}},
+      {"@type": "Question", "name": "Is it possible to go 17-0?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but it is rare. Every game has a chance of an upset, even for an elite roster, so a perfect season needs strong picks and some luck."}},
+      {"@type": "Question", "name": "Is the 17-0 Game free and official?", "acceptedAnswer": {"@type": "Answer", "text": "It is free to play in your browser. It is an unofficial fan-made game and is not affiliated with the NFL or any team or player."}}
+    ]}
+  ]
+}
+</script>
+</head>
+<body>
+<site-header></site-header>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="score" aria-hidden="true">17&ndash;0</p>
+      <h1>17-0 Game: draft an NFL roster that goes undefeated</h1>
+      <p>Pick players from random teams, eras and decades, then play a full 17-game season. One loss ends the dream.</p>
+      <a class="btn" href="#play">Start your draft</a>
+    </div>
+  </section>
+
+  <section id="play" aria-labelledby="play-h">
+    <div class="wrap">
+      <h2 id="play-h">Play the 17-0 Game</h2>
+      <div id="game" aria-live="polite"><noscript>The 17-0 Game needs JavaScript. Please enable it in your browser to play.</noscript></div>
+    </div>
+  </section>
+
+  <section id="how-it-works" aria-labelledby="how-h">
+    <div class="wrap">
+      <h2 id="how-h">How the 17-0 Game works</h2>
+      <p class="lead">The 17-0 Game is an NFL roster-building and simulation challenge. You draft from random teams, eras and decades, so a 1960s lineman can share a huddle with a 2020s receiver.</p>
+      <ol class="steps">
+        <li><h3>Draft nine positions</h3><p>Each pick shows three players from random teams and seasons. Take one and move on. There are no redos.</p></li>
+        <li><h3>Check your team rating</h3><p>Player ratings combine into one team rating. Quarterback and the lines count the most.</p></li>
+        <li><h3>Simulate 17 games</h3><p>Your roster faces 17 random team-seasons from NFL history. Win every game to finish 17-0.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="positions" aria-labelledby="pos-h" style="background:#fff;border-block:1px solid var(--line)">
+    <div class="wrap">
+      <h2 id="pos-h">Positions you draft</h2>
+      <p class="lead">Every group matters, but they are not equal. Here is what each one does for your team rating.</p>
+      <div class="pos-grid">
+        <div class="pos"><img src="/images/pos-qb.webp" width="48" height="48" alt="QB" loading="lazy"><div><h3>Quarterback</h3><p>The highest weight on the roster. Do not skip an elite passer.</p></div></div>
+        <div class="pos"><img src="/images/pos-rb.webp" width="48" height="48" alt="RB" loading="lazy"><div><h3>Running back</h3><p>Controls the ground game and the clock.</p></div></div>
+        <div class="pos"><img src="/images/pos-wr.webp" width="48" height="48" alt="WR" loading="lazy"><div><h3>Wide receiver</h3><p>Big-play threats that stretch every defense.</p></div></div>
+        <div class="pos"><img src="/images/pos-te.webp" width="48" height="48" alt="TE" loading="lazy"><div><h3>Tight end</h3><p>A smaller weight, but a useful blocker and target.</p></div></div>
+        <div class="pos"><img src="/images/pos-ol.webp" width="48" height="48" alt="OL" loading="lazy"><div><h3>Offensive line</h3><p>Protects your quarterback and opens the run lanes.</p></div></div>
+        <div class="pos"><img src="/images/pos-dl.webp" width="48" height="48" alt="DL" loading="lazy"><div><h3>Defensive line</h3><p>The heaviest defensive weight. Pressure wins games.</p></div></div>
+        <div class="pos"><img src="/images/pos-lb.webp" width="48" height="48" alt="LB" loading="lazy"><div><h3>Linebacker</h3><p>Stops the run and covers the middle of the field.</p></div></div>
+        <div class="pos"><img src="/images/pos-cb.webp" width="48" height="48" alt="CB" loading="lazy"><div><h3>Cornerback</h3><p>Shuts down the opponent's best receiver.</p></div></div>
+        <div class="pos"><img src="/images/pos-s.webp" width="48" height="48" alt="S" loading="lazy"><div><h3>Safety</h3><p>The last line of defense against deep passes.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="faq-h">
+    <div class="wrap">
+      <h2 id="faq-h">17-0 Game FAQ</h2>
+      <details><summary>What is the 17-0 Game?</summary><p>The 17-0 Game is a free NFL roster-building and simulation challenge. You draft players from random teams and eras, then simulate a 17-game regular season to see if your roster can go undefeated.</p></details>
+      <details><summary>How do I win the 17-0 Game?</summary><p>Win all 17 simulated games. Draft the highest-rated player you can at each position, and put quarterback and the lines first, since they carry the most weight in your team rating.</p></details>
+      <details><summary>How many players do I draft?</summary><p>You make nine picks, one for each position group: quarterback, running back, wide receiver, tight end, offensive line, defensive line, linebacker, cornerback and safety.</p></details>
+      <details><summary>Is it possible to go 17-0?</summary><p>Yes, but it is rare. Every game has a chance of an upset, even for an elite roster, so a perfect season needs strong picks and some luck.</p></details>
+      <details><summary>Is the 17-0 Game free and official?</summary><p>It is free to play in your browser. It is an unofficial fan-made game and is not affiliated with the NFL or any team or player.</p></details>
+    </div>
+  </section>
+</main>
+<site-footer></site-footer>
+<script src="/js/header.js" defer></script>
+<script src="/js/footer.js" defer></script>
+<script src="/js/game.js" defer></script>
+</body>
+</html>
