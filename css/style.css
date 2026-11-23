@@ -84,3 +84,46 @@ site-footer a{color:#fff}
 .fine{grid-column:1/-1;font-size:.85rem;margin:0;color:#9aa6b6}
 @media(max-width:720px){.ft{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* extra homepage sections */
+.split{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.split img{width:100%;border-radius:10px;border:2px solid var(--ink)}
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:22px}
+.tip{background:#fff;border:2px solid var(--line);border-left:8px solid var(--turf);border-radius:8px;padding:16px 18px}
+.tip h3{font-size:1.35rem;margin-bottom:.25em}
+.tip p{margin:0}
+.band{background:var(--ink);color:#fff}
+.band h2,.band h3{color:#fff}
+.band .lead{color:#cfd6e0}
+.decades{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;list-style:none;margin:24px 0 0;padding:0}
+.decades li{background:#16263d;border-top:4px solid var(--gold);border-radius:6px;padding:14px}
+.decades b{display:block;font:800 2rem var(--display);color:var(--gold)}
+.decades span{font-size:.92rem;color:#cfd6e0}
+.teams{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:0 28px}
+.teams li{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.teams strong{flex:1}
+.teams .bar{flex:0 0 120px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.teams .bar i{display:block;height:100%;background:var(--turf)}
+.teams b{font:800 1.4rem var(--display);color:var(--turf);min-width:2ch;text-align:right}
+.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}
+.feat{border:2px solid var(--line);border-radius:8px;padding:16px;background:#fff}
+.feat h3{font-size:1.3rem}
+.feat p{margin:0;font-size:.97rem}
+@media(max-width:860px){.split,.tips,.teams{grid-template-columns:1fr}.feats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.feats{grid-template-columns:1fr}}
+
+/* inner pages */
+.page-hero{background:var(--ink);color:#fff;padding:48px 0 40px}
+.page-hero h1{font-size:clamp(2.2rem,6vw,3.4rem);margin:0 0 .2em}
+.page-hero p{margin:0;color:#cfd6e0;max-width:40em}
+.doc{padding:48px 0 64px}
+.doc .wrap{max-width:780px}
+.doc h2{font-size:1.9rem;margin-top:1.6em}
+.doc li{margin:.3em 0}
+.crumbs{font-size:.9rem;margin-bottom:10px}
+.crumbs a{color:var(--gold)}
+.updated{color:#6b7686;font-size:.9rem}
+.form{display:grid;gap:14px;margin-top:18px}
+.form label{display:grid;gap:4px;font-weight:600}
+.form input,.form textarea{font:inherit;padding:12px;border:2px solid var(--line);border-radius:6px;background:#fff}
+.form textarea{min-height:150px}

@@ -4,7 +4,8 @@ class SiteHeader extends HTMLElement {
     const links = [
       ['/#play', 'Play'],
       ['/#how-it-works', 'How it works'],
-      ['/#positions', 'Positions'],
+      ['/#strategy', 'Strategy'],
+      ['/about.html', 'About'],
       ['/#faq', 'FAQ']
     ];
     this.innerHTML = `
